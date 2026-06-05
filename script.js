@@ -13,7 +13,7 @@ addBtn.onclick = function () {
         return;
     }
 
-
+console.log("Feature A version");
     let li = document.createElement("li");
     li.textContent = task;
 
