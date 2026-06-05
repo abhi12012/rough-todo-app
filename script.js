@@ -38,4 +38,8 @@ addBtn.onclick = function () {
     taskInput.value = "";
 };
 
+<<<<<<< HEAD
 console.log("Main Branch");
+=======
+console.log("Feature Branch");
+>>>>>>> feature-conflict
