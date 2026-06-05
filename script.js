@@ -18,7 +18,17 @@ addBtn.onclick = function () {
     li.textContent = task;
 
 
-   
+   function deleteCheckedTasks() {
+  let tasks = document.querySelectorAll("li");
+
+  tasks.forEach(function (task) {
+    let checkbox = task.querySelector(".taskInput");
+
+    if (taskInput && checkbox.checked) {
+      task.remove(); // sirf checked task delete hoga
+    }
+  });
+}
 
 
     taskList.appendChild(li);
